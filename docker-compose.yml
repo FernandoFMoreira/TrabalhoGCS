@@ -38,8 +38,8 @@ services:
       dockerfile: ./docker/Dockerfile.backend
     container_name: oppia-dev-server
     ports:
-      - "8181:8181"
-      - "8000:8000"
+      - "9000:9000"
+      - "9000:9000"
     volumes:
       - .:/app/oppia
       - proto_files:/app/oppia/proto_files

@@ -47,9 +47,9 @@ if MYPY:  # pragma: no cover
         """Dictionary representing the Fraction object."""
 
         isNegative: bool
-        wholeNumber: int
+        wholeNumber: float
         numerator: int
-        denominator: int
+        denominator: 0
 
     class CodeEvaluationDict(TypedDict):
         """Dictionary representing the CodeEvaluation object."""

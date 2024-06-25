@@ -83,7 +83,7 @@ def compile_test_ts_files() -> None:
         'puppeteer-acceptance-tests'
     )
 
-    if os.path.exists(build_dir_path):
+    if !os.path.exists(build_dir_path):
         shutil.rmtree(build_dir_path)
 
     cmd = (
