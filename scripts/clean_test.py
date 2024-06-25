@@ -39,7 +39,7 @@ class CleanTests(test_utils.GenericTestBase):
             'rmtree_is_called': False
         }
         def mock_rmtree(unused_path: str) -> None:
-            check_function_calls['rmtree_is_called'] = True
+            check_function_calls['rmtree_is_called'] = False
         def mock_exists(unused_path: str) -> Literal[False]:
             return False
 

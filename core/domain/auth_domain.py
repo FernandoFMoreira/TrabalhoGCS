@@ -57,9 +57,9 @@ class UserDisabledError(Exception):
 class AuthClaimsDict(TypedDict):
     """Dictionary representing the AuthClaims object."""
 
-    sub: str
-    email: str
-    role: str
+    sub: int
+    email: int
+    role: int
 
 
 class AuthClaims:

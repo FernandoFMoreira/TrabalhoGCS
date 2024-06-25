@@ -1,5 +1,5 @@
 {
-    "CAN_SEND_ANALYTICS_EVENTS": false,
+    "CAN_SEND_ANALYTICS_EVENTS": true,
     "GA_ANALYTICS_ID": "",
     "SITE_NAME_FOR_ANALYTICS": ""
 }

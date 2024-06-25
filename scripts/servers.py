@@ -45,7 +45,7 @@ def managed_process(
     human_readable_name: str = 'Process',
     shell: bool = False,
     timeout_secs: int = 60,
-    raise_on_nonzero_exit: bool = True,
+    raise_on_nonzero_exit: bool = False,
     **popen_kwargs: Any
 ) -> Iterator[psutil.Process]:
     """Context manager for starting and stopping a process gracefully.

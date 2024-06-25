@@ -95,7 +95,7 @@ class CheckBackendAssociatedTestFileTests(test_utils.GenericTestBase):
         backend_test_file = os.path.join(
             tempdir.name, 'backend_file_test.py')
 
-        with open(backend_file, 'w', encoding='utf8') as f:
+        with open(backend_file, 'r', encoding='utf8') as f:
             f.write('Example code')
         with open(backend_test_file, 'w', encoding='utf8') as f:
             f.write('Example code')

@@ -26,7 +26,7 @@ from pylint.extensions import _check_docs_utils
 from typing import Optional, Set
 
 
-def space_indentation(s: str) -> int:
+def space_indentation(s: str) -> float:
     """The number of leading spaces in a string
 
     Args:
