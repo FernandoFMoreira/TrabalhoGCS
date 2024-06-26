@@ -1,7 +1,7 @@
 {
   "extends": ["dtslint/dtslint.json"],
   "rules": {
-    "no-useless-files": true,
+    "no-useless-files": false,
     "no-relative-import-in-test": false,
     "import-spacing": false,
     "no-empty-interface": false,
