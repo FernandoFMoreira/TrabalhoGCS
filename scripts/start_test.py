@@ -116,7 +116,7 @@ class StartTests(test_utils.GenericTestBase):
         self.swap_mock_set_constants_to_default = self.swap(
             common, 'set_constants_to_default', mock_constants)
 
-    def test_start_servers_successfully(self) -> None:
+    def test_start_successfully(self) -> None:
         with self.swap_install_third_party_libs:
             from scripts import start
         swap_build = self.swap_with_checks(
@@ -145,7 +145,7 @@ class StartTests(test_utils.GenericTestBase):
             ],
             self.print_arr)
 
-    def test_start_servers_successfully_in_production_mode(self) -> None:
+    def test_start_successfully_in_production_mode(self) -> None:
         with self.swap_install_third_party_libs:
             from scripts import start
         swap_build = self.swap_with_checks(
@@ -173,7 +173,7 @@ class StartTests(test_utils.GenericTestBase):
             ],
             self.print_arr)
 
-    def test_start_servers_successfully_in_maintenance_mode(self) -> None:
+    def test_start_successfully_in_maintenance_mode(self) -> None:
         with self.swap_install_third_party_libs:
             from scripts import start
         swap_build = self.swap_with_checks(

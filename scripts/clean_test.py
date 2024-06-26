@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Unit tests for scripts/clean_test.py."""
+"""Unit tests for scripts/st.py."""
 
 from __future__ import annotations
 
